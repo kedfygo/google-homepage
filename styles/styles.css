@@ -1,0 +1,33 @@
+li {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+#logo-principal {
+    padding-top: 100px;
+    width: 272px;
+    height: 92px;
+   
+    
+}
+
+
+#profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+}
