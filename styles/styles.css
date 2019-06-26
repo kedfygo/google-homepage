@@ -1,9 +1,11 @@
-body {
+html,body {
     font-family: 'Lato', sans-serif;
+    width: 100%;
+    font-size: 12px;
 }
 
 li {
-    display: inline-block;
+    display: block;
     float: right;
     padding: 5px;
 }
@@ -44,7 +46,7 @@ a:hover {
 }
 
 button {
-    background-color: lightgray;
+    background-color: rgb(238, 234, 234);
     height: 30px;
     width: 150px;
     border: none;
@@ -60,37 +62,38 @@ button:hover {
     text-align: center;
 }
 
-hr {
-    color: lightgrey;
-    height: 0.1%;
-}
-
-.country {
-    width: 100%;
+#footer {
+    position: absolute;
+   
+    bottom: 5px;;
     margin: 0;
-    position: absolute;
-    bottom: 30px;
-    left: 50px;
+    height: 100px;
+    width: 100%;
+    padding-bottom:15px;
+    clear: both;
+    background: rgb(238, 234, 234);;
+    color: darkgray;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#footer p {
+    position: relative;
+    float:top;
+    padding-left: 45px;
 }
 
-.footer a {
-    color: gray;
-    font-size: 13px;
-    left: 50px;
-}
-
-.footer-left {
+#footer .left{
     float: left;
 }
 
-.footer-right {
-    padding-left: 300px;
+#footer .right {
     float: right;
 }
+
+hr {
+    height: 0.5px;
+    border: 0;
+    background-color: darkgray;
+}
+
+
 
