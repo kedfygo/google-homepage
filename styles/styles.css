@@ -1,22 +1,26 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 li {
     display: inline-block;
     float: right;
     padding: 5px;
-    
 }
 
 a {
     text-decoration: none;
 }
 
-#logo-principal {
-    padding-top: 100px;
-    width: 272px;
-    height: 92px;
-   
-    
+a:hover {
+    text-decoration: underline;
+ 
 }
 
+.logo {
+    padding-top: 109px;
+    text-align: center;
+}
 
 #profile-pic {
     width: 40px;
@@ -24,10 +28,69 @@ a {
     border-radius: 50%;
 }
 
-.logo {
-    text-align: center;
-}
-
 .search {
     text-align: center;
 }
+
+.search input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5%;
+}
+
+.search-buttons {
+    padding-top: 25px;
+    text-align: center;
+}
+
+button {
+    background-color: lightgray;
+    height: 30px;
+    width: 150px;
+    border: none;
+}
+
+button:hover {
+    border: solid 0.5px;
+    border-radius: 5px;
+    border-color: darkgrey;
+}
+
+.offered-by {
+    text-align: center;
+}
+
+hr {
+    color: lightgrey;
+    height: 0.1%;
+}
+
+.country {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    color: gray;
+    font-size: 13px;
+    left: 50px;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    padding-left: 300px;
+    float: right;
+}
+
