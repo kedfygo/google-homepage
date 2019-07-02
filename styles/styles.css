@@ -1,10 +1,11 @@
-html,body {
+html,
+body {
     font-family: 'Lato', sans-serif;
     width: 100%;
     font-size: 12px;
 }
 
-li {
+.index-bar li {
     display: block;
     float: right;
     padding: 5px;
@@ -16,7 +17,6 @@ a {
 
 a:hover {
     text-decoration: underline;
- 
 }
 
 .logo {
@@ -30,14 +30,17 @@ a:hover {
     border-radius: 50%;
 }
 
-.home-link{
+.home-link {
     padding-top: 20px;
 }
+
 .search {
     text-align: center;
 }
 
 .search-nav {
+    display: inline-block;
+    /*esto*/
     padding-right: 300px;
 }
 
@@ -47,7 +50,7 @@ a:hover {
     -webkit-border-radius: 20px;
     border-radius: 20px;
     font-size: 15px;
-    padding-left: 10px; 
+    padding-left: 10px;
 }
 
 .search-nav input {
@@ -61,10 +64,10 @@ a:hover {
 
 .search-google-logo {
     width: 100px;
-    padding-top:5px;
+    padding-top: 5px;
 }
 
-button {
+.searc button {
     background-color: rgb(238, 234, 234);
     height: 30px;
     width: 150px;
@@ -83,25 +86,32 @@ button:hover {
 
 #footer {
     position: absolute;
-   
-    bottom: 5px;;
+    bottom: 5px;
+    ;
     margin: 0;
     height: 100px;
     width: 100%;
-    padding-bottom:15px;
+    padding-bottom: 15px;
     clear: both;
-    background: rgb(238, 234, 234);;
+    background: rgb(238, 234, 234);
+    ;
     color: darkgray;
 }
 
 #footer p {
     position: relative;
-    float:top;
+    float: top;
     padding-left: 45px;
     font-size: 14px;
 }
 
-#footer .left{
+#footer li {
+    display: block;
+    float: right;
+    padding: 5px;
+}
+
+#footer .left {
     float: left;
 }
 
@@ -116,18 +126,80 @@ hr {
 }
 
 .search {
-    position: fixed;
+    position: absolute;
     top: 10px;
     left: 190px;
+    margin-top: 10px;
+}
+
+.search-google-logo {
+    margin-top: 10px;
+}
+
+.top-bar li {
+    display: inline;
+    float: left;
+}
+
+.top-bar li a {
+    display: block;
+    padding: 8px;
+    height: 30px;
+}
+
+.google-bar {
+    padding-top: 70px;
+    padding-left: 120px;
+    font-size: 14px;
 }
 
 .google-bar li {
-    display: block;
-    height: 30px;
-    
+    display: inline;
+    float: left;
+    padding-left: 15px;
+    margin-top: 10px;
 }
 
+.google-bar button {
+    background-color: white;
+    font-size: 14px;
+    margin-top: 0px;
+}
 
+.google-bar li a {
+    display: block;
+    padding: 8px;
+    height: 30px;
+}
 
+.top-bar #app-simulator {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 60px;
+}
 
+.top-bar #profile-pic {
+    position: absolute;
+    right: 10px;
+}
 
+.list-menu {
+    padding-top: 5px;
+}
+
+.results-number {
+    float: left;
+    padding-left: 140px;
+}
+
+.result p {
+    margin-top: 0;
+    padding: 0;
+}
+
+.results-bar li {
+    display: inline;
+    float: left;
+    padding-left: 5px;
+}
