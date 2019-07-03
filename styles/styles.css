@@ -114,22 +114,30 @@ button:hover {
 }
 
 #footer {
-    position: fixed;
-    bottom: 0px;
+    position: relative;
+    bottom: -50px;
     left: 0px;
     margin-top: 200px;
+    padding: 20px;
     height: 100px;
     width: 100%;
-    padding-bottom: 15px;
     clear: both;
     background: rgb(238, 234, 234);
-    color: darkgray;
+    color: black;
+}
+
+#footer a {
+    color: black;
 }
 
 #footer p {
     position: relative;
     padding-left: 45px;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+#footer p a {
+    color: black;
 }
 
 #footer li {
@@ -228,17 +236,12 @@ hr {
     
 }
 
-.result p {
-    margin-top: 0;
-    padding: 0;
-}
-
 .result h2 {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .results-bar li {
-    display: inline;
+    display: inline-block;
     float: left;
     padding-left: 5px;
 }
@@ -252,4 +255,18 @@ hr {
 
 .google-bar li {
     padding-top: 5px;
+}
+
+.bottom-bar {
+    padding-left: 80px;
+}
+
+.results-number a img{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.results-bar{
+    margin-top: 5px;
+    padding-left: 60px;
 }
