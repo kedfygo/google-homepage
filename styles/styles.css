@@ -53,13 +53,42 @@ a:hover {
     padding-left: 10px;
 }
 
+.search-principal {
+    text-align: center;
+}
+
+.search-principal input {
+    width: 400px;
+    height: 30px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    
+    
+}
+
+.index-bar {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
 .search-nav input {
     width: 600px;
 }
 
 .search-buttons {
-    padding-top: 25px;
     text-align: center;
+    padding-top: 25px;
+}
+
+.search-buttons button {
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    
 }
 
 .search-google-logo {
@@ -85,22 +114,20 @@ button:hover {
 }
 
 #footer {
-    position: absolute;
-    bottom: 5px;
-    ;
-    margin: 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin-top: 200px;
     height: 100px;
     width: 100%;
     padding-bottom: 15px;
     clear: both;
     background: rgb(238, 234, 234);
-    ;
     color: darkgray;
 }
 
 #footer p {
     position: relative;
-    float: top;
     padding-left: 45px;
     font-size: 14px;
 }
@@ -193,13 +220,36 @@ hr {
     padding-left: 140px;
 }
 
+.result {
+    position: relative;
+    float: left;
+    margin-right: 150px;
+    top: 10px;
+    
+}
+
 .result p {
     margin-top: 0;
     padding: 0;
+}
+
+.result h2 {
+    margin-top: 50px;
 }
 
 .results-bar li {
     display: inline;
     float: left;
     padding-left: 5px;
+}
+
+.google-bar li button {
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+}
+
+.google-bar li {
+    padding-top: 5px;
 }
